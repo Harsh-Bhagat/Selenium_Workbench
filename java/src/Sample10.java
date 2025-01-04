@@ -15,9 +15,9 @@ public class Sample10 {
 
 		driver.get("https://www.instagram.com/");
 		driver.findElement(By.cssSelector("input[name=\"username\"]")).click();
-		driver.findElement(By.cssSelector("input[name=\"username\"]")).sendKeys("8340232891");
+		driver.findElement(By.cssSelector("input[name=\"username\"]")).sendKeys("username");
 		driver.findElement(By.cssSelector("input[name=\"password\"]")).click();
-		driver.findElement(By.cssSelector("input[name=\"password\"]")).sendKeys("Harsh@3161");
+		driver.findElement(By.cssSelector("input[name=\"password\"]")).sendKeys("password");
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		driver.findElement(By.cssSelector("svg[aria-label='Search']")).click();
 		driver.findElement(By.cssSelector("input[placeholder='Search']")).click();

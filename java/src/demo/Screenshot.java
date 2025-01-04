@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import Generic.Generic_OpenBrowser;
 import Generic.generic_screenshot;
 
-public class Sample32 {
+public class Screenshot {
 
 	public static void main(String[] args) 
 	{

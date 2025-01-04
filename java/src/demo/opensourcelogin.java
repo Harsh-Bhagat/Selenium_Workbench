@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Sample27 {
+public class opensourcelogin {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
@@ -35,13 +35,8 @@ public class Sample27 {
 	    driver.findElement(By.xpath("//input[@name='lastName']")).sendKeys("XYZ");
 	    driver.findElement(By.xpath("//button[.=' Save ']")).click();
 	    
-	    WebDriverWait wait = new WebDriverWait(driver, 10); // Wait for up to 10 seconds
+	    WebDriverWait wait = new WebDriverWait(driver, 10); 
         wait.until(ExpectedConditions.alertIsPresent());
-
-        // Switch to the alert
-        Alert alert = driver.switchTo().alert();
-
-        // Get the text from the alert
         String alertText = alert.getText();
 
         // Print the alert's text

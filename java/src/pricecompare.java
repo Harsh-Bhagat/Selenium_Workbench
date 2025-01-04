@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import Generic.Generic_OpenBrowser;
 
-public class Sample21 {
+public class pricecompare {
 
 	public static void main(String[] args) {
 		WebDriver driver = Generic_OpenBrowser.Open_chrome();

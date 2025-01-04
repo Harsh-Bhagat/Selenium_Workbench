@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Sample9 {
+public class messageonqtalk {
 
 	public static void main(String[] args) throws Exception
 	{
@@ -15,10 +15,10 @@ public class Sample9 {
 		Thread.sleep(1000);
 		driver.findElement(By.cssSelector("input[autocomplete='username']")).click();
 		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("input[autocomplete='username']")).sendKeys("8340232891");
+		driver.findElement(By.cssSelector("input[autocomplete='username']")).sendKeys("username");
 		driver.findElement(By.cssSelector("input[name='password']")).click();
 		Thread.sleep(1000);
-		driver.findElement(By.cssSelector("input[name='password']")).sendKeys("Harsh#3161");
+		driver.findElement(By.cssSelector("input[name='password']")).sendKeys("password");
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("input[placeholder='Search']")).click();

@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import Generic.Generic_OpenBrowser;
 import Generic.generic_screenshot;
 
-public class Sample33 {
+public class elementscreenshot {
 
 	public static void main(String[] args)throws Exception {
 		WebDriver driver=Generic_OpenBrowser.Open_chrome();
